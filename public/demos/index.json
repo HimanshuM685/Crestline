@@ -1,0 +1,26 @@
+[
+  {
+    "id": "linear",
+    "colors": [
+      "#08090A",
+      "#F7F8F8",
+      "#FFFFFF"
+    ]
+  },
+  {
+    "id": "stripe",
+    "colors": [
+      "#665EFD",
+      "#F5F5FF",
+      "#E8E9FF"
+    ]
+  },
+  {
+    "id": "allbirds",
+    "colors": [
+      "#212121",
+      "#FFFFFF",
+      "#E0DACF"
+    ]
+  }
+]

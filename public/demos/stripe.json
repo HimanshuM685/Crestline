@@ -1,0 +1,555 @@
+{
+  "reportId": "recorded-stripe",
+  "generatedAt": "2026-10-07T22:04:26.077Z",
+  "recorded": true,
+  "brand": {
+    "name": "Stripe",
+    "domain": "stripe.com",
+    "url": "https://stripe.com/",
+    "tagline": "Financial infrastructure to grow your revenue."
+  },
+  "logo": [
+    {
+      "url": "https://images.stripeassets.com/fzn2n1nzq965/1hgcBNd12BfT9VLgbId7By/01d91920114b124fb4cf6d448f9f06eb/favicon.svg",
+      "role": "favicon",
+      "source": {
+        "url": "https://stripe.com/",
+        "detail": "link[rel=icon]",
+        "method": "html"
+      }
+    },
+    {
+      "url": "https://images.stripeassets.com/fzn2n1nzq965/4vVgZi0ZMoEzOhkcv7EVwK/8cce6fdcf2733b2ec8e99548908847ed/favicon.png?w=96&h=96",
+      "role": "favicon",
+      "source": {
+        "url": "https://stripe.com/",
+        "detail": "link[rel=icon]",
+        "method": "html"
+      }
+    },
+    {
+      "url": "https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/media/stripe.37119086.jpg",
+      "role": "social",
+      "source": {
+        "url": "https://stripe.com/",
+        "detail": "meta[property=og:image]",
+        "method": "html"
+      }
+    },
+    {
+      "url": "https://images.stripeassets.com/fzn2n1nzq965/3I8VZjmeW0Kb4uNFyYdYx3/953c5936e18e5f8f42417f7cb7409d4f/newsroom-stripe-default-social-card.png?q=80",
+      "role": "social",
+      "source": {
+        "url": "https://stripe.com/newsroom",
+        "detail": "meta[property=og:image]",
+        "method": "html"
+      }
+    }
+  ],
+  "palette": [
+    {
+      "hex": "#665EFD",
+      "role": "Accent",
+      "source": {
+        "url": "https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/css/a13e5346d32353ff.css",
+        "detail": ":root · --hds-color-core-brand-500: #665efd",
+        "method": "stylesheet"
+      }
+    },
+    {
+      "hex": "#F5F5FF",
+      "role": "Accent",
+      "source": {
+        "url": "https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/css/a13e5346d32353ff.css",
+        "detail": ":root · --hds-color-core-brand-25: #f5f5ff",
+        "method": "stylesheet"
+      }
+    },
+    {
+      "hex": "#E8E9FF",
+      "role": "Accent",
+      "source": {
+        "url": "https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/css/a13e5346d32353ff.css",
+        "detail": ":root · --hds-color-core-brand-50: #e8e9ff",
+        "method": "stylesheet"
+      }
+    },
+    {
+      "hex": "#D6D9FC",
+      "role": "Border",
+      "source": {
+        "url": "https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/css/a13e5346d32353ff.css",
+        "detail": ".hds-mode--light,:root · --hds-color-accent-border-quiet: var(--hds-color-action-border-quiet) → #D6D9FC",
+        "method": "stylesheet"
+      }
+    },
+    {
+      "hex": "#533AFD",
+      "role": "Border",
+      "source": {
+        "url": "https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/css/a13e5346d32353ff.css",
+        "detail": ".hds-mode--light,:root · --hds-color-accent-border-solid: var(--hds-color-action-bg-solid) → #533AFD",
+        "method": "stylesheet"
+      }
+    },
+    {
+      "hex": "#E2E4FF",
+      "role": "Background",
+      "source": {
+        "url": "https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/css/a13e5346d32353ff.css",
+        "detail": ".hds-mode--light,:root · --hds-color-accent-surface-subdued: var(--hds-color-action-bg-subdued) → #E2E4FF",
+        "method": "stylesheet"
+      }
+    },
+    {
+      "hex": "#95A4BA",
+      "role": "Text",
+      "source": {
+        "url": "https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/css/a13e5346d32353ff.css",
+        "detail": ".hds-mode--light,:root · --hds-color-action-text-disabled: var(--hds-color-core-neutral-300) → #95A4BA",
+        "method": "stylesheet"
+      }
+    },
+    {
+      "hex": "#FFFFFF",
+      "role": "Text",
+      "source": {
+        "url": "https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/css/a13e5346d32353ff.css",
+        "detail": ".hds-mode--light,:root · --hds-color-action-text-onSolid: var(--hds-color-core-neutral-0) → #FFFFFF",
+        "method": "stylesheet"
+      }
+    }
+  ],
+  "typography": [
+    {
+      "family": "sohne-var",
+      "role": "Available web font",
+      "kind": "font-face",
+      "source": {
+        "url": "https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/css/a13e5346d32353ff.css",
+        "detail": "@font-face · font-family: sohne-var",
+        "method": "stylesheet"
+      }
+    },
+    {
+      "family": "SourceCodePro",
+      "role": "Available web font",
+      "kind": "font-face",
+      "source": {
+        "url": "https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/css/a13e5346d32353ff.css",
+        "detail": "@font-face · font-family: SourceCodePro",
+        "method": "stylesheet"
+      }
+    },
+    {
+      "family": "Roboto",
+      "role": "Body / interface",
+      "kind": "css-rule",
+      "source": {
+        "url": "https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/css/a13e5346d32353ff.css",
+        "detail": ".hds-globalization-picker .hds-group:has([aria-selected=true]):after · font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Ubuntu,sans-serif",
+        "method": "stylesheet"
+      }
+    },
+    {
+      "family": "Ubuntu",
+      "role": "Body / interface",
+      "kind": "css-rule",
+      "source": {
+        "url": "https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/css/a13e5346d32353ff.css",
+        "detail": ".hds-globalization-picker .hds-group:has([aria-selected=true]):after · font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Ubuntu,sans-serif",
+        "method": "stylesheet"
+      }
+    },
+    {
+      "family": "Sohne",
+      "role": "Preloaded font resource",
+      "kind": "font-file",
+      "source": {
+        "url": "https://stripe.com/",
+        "detail": "Font file: https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/media/Sohne.cb178166.woff2",
+        "method": "html"
+      }
+    },
+    {
+      "family": "SourceCodePro-Medium",
+      "role": "Preloaded font resource",
+      "kind": "font-file",
+      "source": {
+        "url": "https://stripe.com/",
+        "detail": "Font file: https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/media/SourceCodePro-Medium.f5ba3e6a.woff2",
+        "method": "html"
+      }
+    }
+  ],
+  "voice": {
+    "attributes": [
+      {
+        "name": "Concise",
+        "evidence": "Businesses on Stripe processed more than $40 billion from Black Friday through Cyber Monday"
+      },
+      {
+        "name": "Direct",
+        "evidence": "Financial infrastructure to grow your revenue. Accept payments, handle business banking,1 and implement custom revenue models—from your first transaction to your billionth."
+      },
+      {
+        "name": "Action-led",
+        "evidence": "We build programmable financial infrastructure, rethinking from first principles how financial services should work, to make it easier and cheaper for any business to start and scale."
+      }
+    ],
+    "do": [
+      "Keep the short, declarative sentence rhythm found in the quoted copy.",
+      "Address the reader with “you” and “your”, as the source does.",
+      "Lead with concrete action verbs already present in the site copy."
+    ],
+    "dont": [
+      "Don’t expand a compact source line into a lengthy explanation.",
+      "Don’t replace direct address with impersonal third-person language.",
+      "Don’t introduce claims or promises absent from the source pages."
+    ],
+    "quotes": [
+      {
+        "text": "Businesses on Stripe processed more than $40 billion from Black Friday through Cyber Monday",
+        "source": {
+          "url": "https://stripe.com/newsroom/news/bfcm2025",
+          "detail": "Verbatim heading",
+          "method": "markdown"
+        }
+      },
+      {
+        "text": "Financial infrastructure to grow your revenue. Accept payments, handle business banking,1 and implement custom revenue models—from your first transaction to your billionth.",
+        "source": {
+          "url": "https://stripe.com/",
+          "detail": "Verbatim heading",
+          "method": "markdown"
+        }
+      },
+      {
+        "text": "Flexible solutions for every business model.",
+        "source": {
+          "url": "https://stripe.com/",
+          "detail": "Verbatim heading",
+          "method": "markdown"
+        }
+      },
+      {
+        "text": "Reliable, extensible infrastructure for every stack.",
+        "source": {
+          "url": "https://stripe.com/",
+          "detail": "Verbatim heading",
+          "method": "markdown"
+        }
+      },
+      {
+        "text": "Stripe is a technology company focused on improving the conditions for economic growth and prosperity.",
+        "source": {
+          "url": "https://stripe.com/about",
+          "detail": "Verbatim site copy",
+          "method": "markdown"
+        }
+      },
+      {
+        "text": "We build programmable financial infrastructure, rethinking from first principles how financial services should work, to make it easier and cheaper for any business to start and scale.",
+        "source": {
+          "url": "https://stripe.com/about",
+          "detail": "Verbatim site copy",
+          "method": "markdown"
+        }
+      }
+    ]
+  },
+  "messaging": {
+    "headline": "Financial infrastructure to grow your revenue.",
+    "description": "Stripe is a financial services platform that helps all types of businesses accept payments, build flexible billing models, and manage money movement.",
+    "pillars": [
+      {
+        "text": "Flexible solutions for every business model.",
+        "source": {
+          "url": "https://stripe.com/",
+          "detail": "Quoted page heading",
+          "method": "html"
+        }
+      },
+      {
+        "text": "Get Stripe product recommendations",
+        "source": {
+          "url": "https://stripe.com/",
+          "detail": "Quoted page heading",
+          "method": "html"
+        }
+      },
+      {
+        "text": "The backbone of global commerce",
+        "source": {
+          "url": "https://stripe.com/",
+          "detail": "Quoted page heading",
+          "method": "html"
+        }
+      },
+      {
+        "text": "Powering businesses of all sizes.",
+        "source": {
+          "url": "https://stripe.com/",
+          "detail": "Quoted page heading",
+          "method": "html"
+        }
+      },
+      {
+        "text": "Reliable, extensible infrastructure for every stack.",
+        "source": {
+          "url": "https://stripe.com/",
+          "detail": "Quoted page heading",
+          "method": "html"
+        }
+      }
+    ],
+    "callsToAction": [
+      {
+        "text": "Pricing",
+        "source": {
+          "url": "https://stripe.com/",
+          "detail": "Quoted link or button label",
+          "method": "html"
+        }
+      },
+      {
+        "text": "Guide me",
+        "source": {
+          "url": "https://stripe.com/",
+          "detail": "Quoted link or button label",
+          "method": "html"
+        }
+      },
+      {
+        "text": "Sign in",
+        "source": {
+          "url": "https://stripe.com/",
+          "detail": "Quoted link or button label",
+          "method": "html"
+        }
+      },
+      {
+        "text": "Start now",
+        "source": {
+          "url": "https://stripe.com/",
+          "detail": "Quoted link or button label",
+          "method": "html"
+        }
+      },
+      {
+        "text": "Contact sales",
+        "source": {
+          "url": "https://stripe.com/",
+          "detail": "Quoted link or button label",
+          "method": "html"
+        }
+      },
+      {
+        "text": "Sign inSign in",
+        "source": {
+          "url": "https://stripe.com/",
+          "detail": "Quoted link or button label",
+          "method": "html"
+        }
+      }
+    ],
+    "headlineSource": {
+      "url": "https://stripe.com/",
+      "detail": "Quoted homepage headline",
+      "method": "html"
+    },
+    "descriptionSource": {
+      "url": "https://stripe.com/",
+      "detail": "Homepage meta description or introductory copy",
+      "method": "html"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/css/a13e5346d32353ff.css",
+      "title": "Linked stylesheet",
+      "kind": "stylesheet"
+    },
+    {
+      "url": "https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/css/5abff0f798ddf7af.css",
+      "title": "Linked stylesheet",
+      "kind": "stylesheet"
+    },
+    {
+      "url": "https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/css/d510033e74b436d3.css",
+      "title": "Linked stylesheet",
+      "kind": "stylesheet"
+    },
+    {
+      "url": "https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/css/e8a443975bb49a32.css",
+      "title": "Linked stylesheet",
+      "kind": "stylesheet"
+    },
+    {
+      "url": "https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/css/7ab15948e3aeca38.css",
+      "title": "Linked stylesheet",
+      "kind": "stylesheet"
+    },
+    {
+      "url": "https://b.stripecdn.com/mkt-statics-srv/assets/v1-GlobalizationPicker-cb59e0de1d5c3aeaa184.css",
+      "title": "Linked stylesheet",
+      "kind": "stylesheet"
+    },
+    {
+      "url": "https://stripe.com/",
+      "title": "Stripe | Financial Infrastructure to Grow Your Revenue",
+      "kind": "homepage"
+    },
+    {
+      "url": "https://stripe.com/about",
+      "title": "About Us | Stripe",
+      "kind": "brand"
+    },
+    {
+      "url": "https://stripe.com/newsroom",
+      "title": "Stripe Newsroom: The Latest News & Announcements",
+      "kind": "brand"
+    },
+    {
+      "url": "https://stripe.com/newsroom/news/bfcm2025",
+      "title": "Businesses on Stripe processed more than $40 billion from Black Friday through Cyber Monday",
+      "kind": "brand"
+    }
+  ],
+  "tinyfish": {
+    "endpoints": [
+      "search",
+      "agent",
+      "fetch"
+    ],
+    "calls": [
+      {
+        "endpoint": "search",
+        "url": "https://api.search.tinyfish.ai/?query=Stripe+official+website&purpose=Resolve+the+company%27s+official+homepage%2C+excluding+news+and+social+profiles",
+        "format": "json",
+        "purpose": "Resolve the company's official homepage, excluding news and social profiles",
+        "status": "completed"
+      },
+      {
+        "endpoint": "agent",
+        "url": "https://stripe.com/",
+        "format": "json",
+        "purpose": "Observe rendered logo, colours, type and exact homepage copy",
+        "status": "failed",
+        "error": "This TinyFish key does not have access to the requested endpoint."
+      },
+      {
+        "endpoint": "search",
+        "url": "https://api.search.tinyfish.ai/?query=site%3Astripe.com+%28about+OR+story+OR+brand+OR+press%29&purpose=Discover+official+about%2C+story%2C+press+and+brand+pages",
+        "format": "json",
+        "purpose": "Discover official about, story, press and brand pages",
+        "status": "completed"
+      },
+      {
+        "endpoint": "fetch",
+        "url": "https://stripe.com/",
+        "format": "html",
+        "purpose": "Inspect homepage HTML for logo, font and stylesheet links",
+        "status": "completed"
+      },
+      {
+        "endpoint": "fetch",
+        "url": "https://stripe.com/",
+        "format": "html",
+        "purpose": "Extract page structure, marks, typography and CTAs",
+        "status": "completed"
+      },
+      {
+        "endpoint": "fetch",
+        "url": "https://stripe.com/about",
+        "format": "html",
+        "purpose": "Extract page structure, marks, typography and CTAs",
+        "status": "completed"
+      },
+      {
+        "endpoint": "fetch",
+        "url": "https://stripe.com/newsroom",
+        "format": "html",
+        "purpose": "Extract page structure, marks, typography and CTAs",
+        "status": "completed"
+      },
+      {
+        "endpoint": "fetch",
+        "url": "https://stripe.com/newsroom/news/bfcm2025",
+        "format": "html",
+        "purpose": "Extract page structure, marks, typography and CTAs",
+        "status": "completed"
+      },
+      {
+        "endpoint": "fetch",
+        "url": "https://stripe.com/",
+        "format": "markdown",
+        "purpose": "Collect verbatim headings and sentences for voice and messaging",
+        "status": "completed"
+      },
+      {
+        "endpoint": "fetch",
+        "url": "https://stripe.com/about",
+        "format": "markdown",
+        "purpose": "Collect verbatim headings and sentences for voice and messaging",
+        "status": "completed"
+      },
+      {
+        "endpoint": "fetch",
+        "url": "https://stripe.com/newsroom",
+        "format": "markdown",
+        "purpose": "Collect verbatim headings and sentences for voice and messaging",
+        "status": "completed"
+      },
+      {
+        "endpoint": "fetch",
+        "url": "https://stripe.com/newsroom/news/bfcm2025",
+        "format": "markdown",
+        "purpose": "Collect verbatim headings and sentences for voice and messaging",
+        "status": "completed"
+      },
+      {
+        "endpoint": "fetch",
+        "url": "https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/css/a13e5346d32353ff.css",
+        "format": "html",
+        "purpose": "Read linked stylesheets for colour and font tokens",
+        "status": "completed"
+      },
+      {
+        "endpoint": "fetch",
+        "url": "https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/css/5abff0f798ddf7af.css",
+        "format": "html",
+        "purpose": "Read linked stylesheets for colour and font tokens",
+        "status": "completed"
+      },
+      {
+        "endpoint": "fetch",
+        "url": "https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/css/d510033e74b436d3.css",
+        "format": "html",
+        "purpose": "Read linked stylesheets for colour and font tokens",
+        "status": "completed"
+      },
+      {
+        "endpoint": "fetch",
+        "url": "https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/css/e8a443975bb49a32.css",
+        "format": "html",
+        "purpose": "Read linked stylesheets for colour and font tokens",
+        "status": "completed"
+      },
+      {
+        "endpoint": "fetch",
+        "url": "https://b.stripecdn.com/mkt-ssr-statics/assets/_next/static/css/7ab15948e3aeca38.css",
+        "format": "html",
+        "purpose": "Read linked stylesheets for colour and font tokens",
+        "status": "completed"
+      },
+      {
+        "endpoint": "fetch",
+        "url": "https://b.stripecdn.com/mkt-statics-srv/assets/v1-GlobalizationPicker-cb59e0de1d5c3aeaa184.css",
+        "format": "html",
+        "purpose": "Read linked stylesheets for colour and font tokens",
+        "status": "completed"
+      }
+    ]
+  }
+}

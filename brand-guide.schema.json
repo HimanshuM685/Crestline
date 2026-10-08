@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://crestline.app/brand-guide.schema.json",
+  "title": "Crestline BrandGuide",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["reportId", "generatedAt", "recorded", "brand", "logo", "palette", "typography", "voice", "messaging", "sources", "tinyfish"],
+  "properties": {
+    "reportId": { "type": "string", "minLength": 1 },
+    "generatedAt": { "type": "string", "format": "date-time" },
+    "recorded": { "type": "boolean" },
+    "brand": {
+      "type": "object", "additionalProperties": false,
+      "required": ["name", "domain", "url", "tagline"],
+      "properties": {
+        "name": { "type": "string" }, "domain": { "type": "string" },
+        "url": { "type": "string", "format": "uri" }, "tagline": { "type": ["string", "null"] }
+      }
+    },
+    "logo": {
+      "type": "array", "items": {
+        "type": "object", "additionalProperties": false, "required": ["url", "role", "source"],
+        "properties": { "url": { "type": "string", "format": "uri" }, "role": { "enum": ["primary", "favicon", "social"] }, "source": { "$ref": "#/$defs/evidence" } }
+      }
+    },
+    "palette": {
+      "type": "array", "items": {
+        "type": "object", "additionalProperties": false, "required": ["hex", "role", "source"],
+        "properties": { "hex": { "type": "string", "pattern": "^#[0-9A-F]{6}$" }, "role": { "type": "string" }, "source": { "$ref": "#/$defs/evidence" } }
+      }
+    },
+    "typography": {
+      "type": "array", "items": {
+        "type": "object", "additionalProperties": false, "required": ["family", "role", "kind", "source"],
+        "properties": {
+          "family": { "type": "string" }, "role": { "type": "string" },
+          "kind": { "enum": ["font-file", "font-face", "css-variable", "css-rule", "rendered-observation"] },
+          "source": { "$ref": "#/$defs/evidence" }
+        }
+      }
+    },
+    "voice": {
+      "type": "object", "additionalProperties": false, "required": ["attributes", "do", "dont", "quotes"],
+      "properties": {
+        "attributes": { "type": "array", "items": { "type": "object", "additionalProperties": false, "required": ["name", "evidence"], "properties": { "name": { "type": "string" }, "evidence": { "type": "string" } } } },
+        "do": { "type": "array", "items": { "type": "string" } }, "dont": { "type": "array", "items": { "type": "string" } },
+        "quotes": { "type": "array", "items": { "$ref": "#/$defs/quotedCopy" } }
+      }
+    },
+    "messaging": {
+      "type": "object", "additionalProperties": false, "required": ["headline", "headlineSource", "description", "descriptionSource", "pillars", "callsToAction"],
+      "properties": {
+        "headline": { "type": ["string", "null"] }, "description": { "type": ["string", "null"] },
+        "headlineSource": { "anyOf": [{ "$ref": "#/$defs/evidence" }, { "type": "null" }] },
+        "descriptionSource": { "anyOf": [{ "$ref": "#/$defs/evidence" }, { "type": "null" }] },
+        "pillars": { "type": "array", "items": { "$ref": "#/$defs/quotedCopy" } },
+        "callsToAction": { "type": "array", "items": { "$ref": "#/$defs/quotedCopy" } }
+      }
+    },
+    "sources": {
+      "type": "array", "items": {
+        "type": "object", "additionalProperties": false, "required": ["url", "title", "kind"],
+        "properties": { "url": { "type": "string", "format": "uri" }, "title": { "type": "string" }, "kind": { "enum": ["homepage", "brand", "stylesheet"] } }
+      }
+    },
+    "tinyfish": {
+      "type": "object", "additionalProperties": false, "required": ["endpoints", "calls"],
+      "properties": {
+        "endpoints": { "type": "array", "uniqueItems": true, "items": { "enum": ["search", "fetch", "agent"] } },
+        "calls": { "type": "array", "items": {
+          "type": "object", "additionalProperties": false, "required": ["endpoint", "url", "format", "purpose", "status"],
+          "properties": {
+            "endpoint": { "enum": ["search", "fetch", "agent"] }, "url": { "type": "string", "format": "uri" },
+            "format": { "type": "string" }, "purpose": { "type": "string" }, "status": { "enum": ["completed", "failed"] }, "error": { "type": "string" }
+          }
+        } }
+      }
+    }
+  },
+  "$defs": {
+    "evidence": {
+      "type": "object", "additionalProperties": false, "required": ["url", "detail", "method"],
+      "properties": {
+        "url": { "type": "string", "format": "uri" }, "detail": { "type": "string" }, "method": { "enum": ["html", "stylesheet", "markdown", "agent"] }
+      }
+    },
+    "quotedCopy": {
+      "type": "object", "additionalProperties": false, "required": ["text", "source"],
+      "properties": { "text": { "type": "string" }, "source": { "$ref": "#/$defs/evidence" } }
+    }
+  }
+}

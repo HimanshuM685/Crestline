@@ -1,0 +1,472 @@
+{
+  "reportId": "recorded-linear",
+  "generatedAt": "2026-10-07T22:04:25.227Z",
+  "recorded": true,
+  "brand": {
+    "name": "Linear",
+    "domain": "linear.app",
+    "url": "https://linear.app/",
+    "tagline": "The product development system for teams and agents"
+  },
+  "logo": [
+    {
+      "url": "https://linear.app/favicon.ico?v=2",
+      "role": "favicon",
+      "source": {
+        "url": "https://linear.app/",
+        "detail": "link[rel=icon]",
+        "method": "html"
+      }
+    },
+    {
+      "url": "https://linear.app/static/favicon.svg?v=2",
+      "role": "favicon",
+      "source": {
+        "url": "https://linear.app/",
+        "detail": "link[rel=icon]",
+        "method": "html"
+      }
+    },
+    {
+      "url": "https://linear.app/api/og/main?title=Linear&v=4",
+      "role": "social",
+      "source": {
+        "url": "https://linear.app/",
+        "detail": "meta[property=og:image]",
+        "method": "html"
+      }
+    },
+    {
+      "url": "https://linear.app/api/og/generic?title=About+Us&v=5",
+      "role": "social",
+      "source": {
+        "url": "https://linear.app/about",
+        "detail": "meta[property=og:image]",
+        "method": "html"
+      }
+    }
+  ],
+  "palette": [
+    {
+      "hex": "#08090A",
+      "role": "Background",
+      "source": {
+        "url": "https://static.linear.app/web/_next/static/css/layout.C0PJmvhY.css",
+        "detail": "[data-theme=dark] · --color-bg-primary: #08090a",
+        "method": "stylesheet"
+      }
+    },
+    {
+      "hex": "#F7F8F8",
+      "role": "Text",
+      "source": {
+        "url": "https://static.linear.app/web/_next/static/css/layout.C0PJmvhY.css",
+        "detail": "[data-theme=dark] · --color-text-primary: #f7f8f8",
+        "method": "stylesheet"
+      }
+    },
+    {
+      "hex": "#FFFFFF",
+      "role": "Neutral",
+      "source": {
+        "url": "https://static.linear.app/web/_next/static/css/layout.C0PJmvhY.css",
+        "detail": ":root · --color-white: #fff",
+        "method": "stylesheet"
+      }
+    },
+    {
+      "hex": "#000000",
+      "role": "Neutral",
+      "source": {
+        "url": "https://static.linear.app/web/_next/static/css/layout.C0PJmvhY.css",
+        "detail": ":root · --color-black: #000",
+        "method": "stylesheet"
+      }
+    },
+    {
+      "hex": "#4EA7FC",
+      "role": "color blue",
+      "source": {
+        "url": "https://static.linear.app/web/_next/static/css/layout.C0PJmvhY.css",
+        "detail": ":root · --color-blue: #4ea7fc",
+        "method": "stylesheet"
+      }
+    },
+    {
+      "hex": "#EB5757",
+      "role": "color red",
+      "source": {
+        "url": "https://static.linear.app/web/_next/static/css/layout.C0PJmvhY.css",
+        "detail": ":root · --color-red: #eb5757",
+        "method": "stylesheet"
+      }
+    },
+    {
+      "hex": "#27A644",
+      "role": "color green",
+      "source": {
+        "url": "https://static.linear.app/web/_next/static/css/layout.C0PJmvhY.css",
+        "detail": ":root · --color-green: #27a644",
+        "method": "stylesheet"
+      }
+    },
+    {
+      "hex": "#FC7840",
+      "role": "color orange",
+      "source": {
+        "url": "https://static.linear.app/web/_next/static/css/layout.C0PJmvhY.css",
+        "detail": ":root · --color-orange: #fc7840",
+        "method": "stylesheet"
+      }
+    }
+  ],
+  "typography": [
+    {
+      "family": "Inter Variable",
+      "role": "Available web font",
+      "kind": "font-face",
+      "source": {
+        "url": "https://static.linear.app/web/_next/static/css/layout.C0PJmvhY.css",
+        "detail": "@font-face · font-family: Inter Variable",
+        "method": "stylesheet"
+      }
+    },
+    {
+      "family": "Berkeley Mono",
+      "role": "Available web font",
+      "kind": "font-face",
+      "source": {
+        "url": "https://static.linear.app/web/_next/static/css/layout.C0PJmvhY.css",
+        "detail": "@font-face · font-family: Berkeley Mono",
+        "method": "stylesheet"
+      }
+    }
+  ],
+  "voice": {
+    "attributes": [
+      {
+        "name": "Concise",
+        "evidence": "Building tools for the next era of product development"
+      }
+    ],
+    "do": [
+      "Keep the short, declarative sentence rhythm found in the quoted copy."
+    ],
+    "dont": [
+      "Don’t expand a compact source line into a lengthy explanation."
+    ],
+    "quotes": [
+      {
+        "text": "Building tools for the next era of product development",
+        "source": {
+          "url": "https://linear.app/about",
+          "detail": "Verbatim heading",
+          "method": "markdown"
+        }
+      },
+      {
+        "text": "Built for the future. Available today.",
+        "source": {
+          "url": "https://linear.app/about",
+          "detail": "Verbatim heading",
+          "method": "markdown"
+        }
+      },
+      {
+        "text": "The product development system for teams and agents",
+        "source": {
+          "url": "https://linear.app/",
+          "detail": "Verbatim heading",
+          "method": "markdown"
+        }
+      },
+      {
+        "text": "A new species of product tool. Purpose-built for modern teams with AI workflows at its core, Linear sets a new standard for planning and building products.",
+        "source": {
+          "url": "https://linear.app/",
+          "detail": "Verbatim heading",
+          "method": "markdown"
+        }
+      },
+      {
+        "text": "Resources for presenting the Linear brand consistently and professionally.",
+        "source": {
+          "url": "https://linear.app/brand",
+          "detail": "Verbatim heading",
+          "method": "markdown"
+        }
+      },
+      {
+        "text": "AI is fundamentally changing how products get built. We are shaping what comes next.",
+        "source": {
+          "url": "https://linear.app/about",
+          "detail": "Verbatim site copy",
+          "method": "markdown"
+        }
+      }
+    ]
+  },
+  "messaging": {
+    "headline": "The product development system for teams and agents",
+    "description": "Purpose-built for planning and building products with AI agents.",
+    "pillars": [
+      {
+        "text": "A new species of product tool. Purpose-built for modern teams with AI workflows at its core, Linear sets a new standard for planning and building products.",
+        "source": {
+          "url": "https://linear.app/",
+          "detail": "Quoted page heading",
+          "method": "html"
+        }
+      },
+      {
+        "text": "Intake and integrations",
+        "source": {
+          "url": "https://linear.app/",
+          "detail": "Quoted page heading",
+          "method": "html"
+        }
+      },
+      {
+        "text": "Planning and monitoring",
+        "source": {
+          "url": "https://linear.app/",
+          "detail": "Quoted page heading",
+          "method": "html"
+        }
+      },
+      {
+        "text": "AI and automations",
+        "source": {
+          "url": "https://linear.app/",
+          "detail": "Quoted page heading",
+          "method": "html"
+        }
+      },
+      {
+        "text": "Build, review, and ship",
+        "source": {
+          "url": "https://linear.app/",
+          "detail": "Quoted page heading",
+          "method": "html"
+        }
+      }
+    ],
+    "callsToAction": [
+      {
+        "text": "Contact",
+        "source": {
+          "url": "https://linear.app/",
+          "detail": "Quoted link or button label",
+          "method": "html"
+        }
+      },
+      {
+        "text": "Open app",
+        "source": {
+          "url": "https://linear.app/",
+          "detail": "Quoted link or button label",
+          "method": "html"
+        }
+      },
+      {
+        "text": "Sign up",
+        "source": {
+          "url": "https://linear.app/",
+          "detail": "Quoted link or button label",
+          "method": "html"
+        }
+      }
+    ],
+    "headlineSource": {
+      "url": "https://linear.app/",
+      "detail": "Quoted homepage headline",
+      "method": "html"
+    },
+    "descriptionSource": {
+      "url": "https://linear.app/",
+      "detail": "Homepage meta description or introductory copy",
+      "method": "html"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://static.linear.app/web/_next/static/css/layout.C0PJmvhY.css",
+      "title": "Linked stylesheet",
+      "kind": "stylesheet"
+    },
+    {
+      "url": "https://static.linear.app/web/_next/static/css/Layout.tvkMFESE.css",
+      "title": "Linked stylesheet",
+      "kind": "stylesheet"
+    },
+    {
+      "url": "https://static.linear.app/web/_next/static/css/GlobalSidePanel.cAFbFP1F.css",
+      "title": "Linked stylesheet",
+      "kind": "stylesheet"
+    },
+    {
+      "url": "https://static.linear.app/web/_next/static/css/Header.DIdsLwAm.css",
+      "title": "Linked stylesheet",
+      "kind": "stylesheet"
+    },
+    {
+      "url": "https://static.linear.app/web/_next/static/css/CTA.CDNJI-Em.css",
+      "title": "Linked stylesheet",
+      "kind": "stylesheet"
+    },
+    {
+      "url": "https://static.linear.app/web/_next/static/css/pcGZUK31.css",
+      "title": "Linked stylesheet",
+      "kind": "stylesheet"
+    },
+    {
+      "url": "https://linear.app/",
+      "title": "Linear – The system for product development",
+      "kind": "homepage"
+    },
+    {
+      "url": "https://linear.app/about",
+      "title": "About – Linear",
+      "kind": "brand"
+    },
+    {
+      "url": "https://linear.app/brand",
+      "title": "Brand Guidelines – Linear",
+      "kind": "brand"
+    },
+    {
+      "url": "https://linear.app/now/press",
+      "title": "Press - Linear",
+      "kind": "brand"
+    }
+  ],
+  "tinyfish": {
+    "endpoints": [
+      "agent",
+      "search",
+      "fetch"
+    ],
+    "calls": [
+      {
+        "endpoint": "agent",
+        "url": "https://linear.app/",
+        "format": "json",
+        "purpose": "Observe rendered logo, colours, type and exact homepage copy",
+        "status": "failed",
+        "error": "This TinyFish key does not have access to the requested endpoint."
+      },
+      {
+        "endpoint": "search",
+        "url": "https://api.search.tinyfish.ai/?query=site%3Alinear.app+%28about+OR+story+OR+brand+OR+press%29&purpose=Discover+official+about%2C+story%2C+press+and+brand+pages",
+        "format": "json",
+        "purpose": "Discover official about, story, press and brand pages",
+        "status": "completed"
+      },
+      {
+        "endpoint": "fetch",
+        "url": "https://linear.app/",
+        "format": "html",
+        "purpose": "Inspect homepage HTML for logo, font and stylesheet links",
+        "status": "completed"
+      },
+      {
+        "endpoint": "fetch",
+        "url": "https://linear.app/",
+        "format": "html",
+        "purpose": "Extract page structure, marks, typography and CTAs",
+        "status": "completed"
+      },
+      {
+        "endpoint": "fetch",
+        "url": "https://linear.app/about",
+        "format": "html",
+        "purpose": "Extract page structure, marks, typography and CTAs",
+        "status": "completed"
+      },
+      {
+        "endpoint": "fetch",
+        "url": "https://linear.app/brand",
+        "format": "html",
+        "purpose": "Extract page structure, marks, typography and CTAs",
+        "status": "completed"
+      },
+      {
+        "endpoint": "fetch",
+        "url": "https://linear.app/now/press",
+        "format": "html",
+        "purpose": "Extract page structure, marks, typography and CTAs",
+        "status": "completed"
+      },
+      {
+        "endpoint": "fetch",
+        "url": "https://linear.app/",
+        "format": "markdown",
+        "purpose": "Collect verbatim headings and sentences for voice and messaging",
+        "status": "completed"
+      },
+      {
+        "endpoint": "fetch",
+        "url": "https://linear.app/about",
+        "format": "markdown",
+        "purpose": "Collect verbatim headings and sentences for voice and messaging",
+        "status": "completed"
+      },
+      {
+        "endpoint": "fetch",
+        "url": "https://linear.app/brand",
+        "format": "markdown",
+        "purpose": "Collect verbatim headings and sentences for voice and messaging",
+        "status": "completed"
+      },
+      {
+        "endpoint": "fetch",
+        "url": "https://linear.app/now/press",
+        "format": "markdown",
+        "purpose": "Collect verbatim headings and sentences for voice and messaging",
+        "status": "completed"
+      },
+      {
+        "endpoint": "fetch",
+        "url": "https://static.linear.app/web/_next/static/css/layout.C0PJmvhY.css",
+        "format": "html",
+        "purpose": "Read linked stylesheets for colour and font tokens",
+        "status": "completed"
+      },
+      {
+        "endpoint": "fetch",
+        "url": "https://static.linear.app/web/_next/static/css/Layout.tvkMFESE.css",
+        "format": "html",
+        "purpose": "Read linked stylesheets for colour and font tokens",
+        "status": "completed"
+      },
+      {
+        "endpoint": "fetch",
+        "url": "https://static.linear.app/web/_next/static/css/GlobalSidePanel.cAFbFP1F.css",
+        "format": "html",
+        "purpose": "Read linked stylesheets for colour and font tokens",
+        "status": "completed"
+      },
+      {
+        "endpoint": "fetch",
+        "url": "https://static.linear.app/web/_next/static/css/Header.DIdsLwAm.css",
+        "format": "html",
+        "purpose": "Read linked stylesheets for colour and font tokens",
+        "status": "completed"
+      },
+      {
+        "endpoint": "fetch",
+        "url": "https://static.linear.app/web/_next/static/css/CTA.CDNJI-Em.css",
+        "format": "html",
+        "purpose": "Read linked stylesheets for colour and font tokens",
+        "status": "completed"
+      },
+      {
+        "endpoint": "fetch",
+        "url": "https://static.linear.app/web/_next/static/css/pcGZUK31.css",
+        "format": "html",
+        "purpose": "Read linked stylesheets for colour and font tokens",
+        "status": "completed"
+      }
+    ]
+  }
+}

@@ -1,0 +1,403 @@
+{
+  "reportId": "recorded-allbirds",
+  "generatedAt": "2026-10-07T22:04:24.721Z",
+  "recorded": true,
+  "brand": {
+    "name": "Allbirds",
+    "domain": "allbirds.com",
+    "url": "https://www.allbirds.com/",
+    "tagline": "Wildly Comfortable. Super Natural."
+  },
+  "logo": [
+    {
+      "url": "https://www.allbirds.com/cdn/shop/files/favicon.png?v=1719584207",
+      "role": "favicon",
+      "source": {
+        "url": "https://www.allbirds.com/",
+        "detail": "link[rel=shortcut icon]",
+        "method": "html"
+      }
+    },
+    {
+      "url": "http://www.allbirds.com/cdn/shop/files/logo-seo.jpg?v=1753720776",
+      "role": "social",
+      "source": {
+        "url": "https://www.allbirds.com/",
+        "detail": "meta[property=og:image]",
+        "method": "html"
+      }
+    }
+  ],
+  "palette": [
+    {
+      "hex": "#212121",
+      "role": "Neutral",
+      "source": {
+        "url": "https://www.allbirds.com/cdn/shop/t/4159/assets/theme.css",
+        "detail": ":root,:host · --color-black: #212121",
+        "method": "stylesheet"
+      }
+    },
+    {
+      "hex": "#FFFFFF",
+      "role": "Neutral",
+      "source": {
+        "url": "https://www.allbirds.com/cdn/shop/t/4159/assets/theme.css",
+        "detail": ":root,:host · --color-white: #fff",
+        "method": "stylesheet"
+      }
+    },
+    {
+      "hex": "#E0DACF",
+      "role": "Neutral",
+      "source": {
+        "url": "https://www.allbirds.com/cdn/shop/t/4159/assets/theme.css",
+        "detail": ":root,:host · --color-natural-white: #e0dacf",
+        "method": "stylesheet"
+      }
+    },
+    {
+      "hex": "#9C0F0F",
+      "role": "color red",
+      "source": {
+        "url": "https://www.allbirds.com/cdn/shop/t/4159/assets/theme.css",
+        "detail": ":root,:host · --color-red: #9c0f0f",
+        "method": "stylesheet"
+      }
+    },
+    {
+      "hex": "#CDCDCD",
+      "role": "Border",
+      "source": {
+        "url": "https://www.allbirds.com/cdn/shop/t/4159/assets/theme.css",
+        "detail": ":root,:host · --color-stroke: #cdcdcd",
+        "method": "stylesheet"
+      }
+    },
+    {
+      "hex": "#443828",
+      "role": "color khaki",
+      "source": {
+        "url": "https://www.allbirds.com/cdn/shop/t/4159/assets/theme.css",
+        "detail": ":root,:host · --color-khaki: #443828",
+        "method": "stylesheet"
+      }
+    },
+    {
+      "hex": "#10714E",
+      "role": "color green",
+      "source": {
+        "url": "https://www.allbirds.com/cdn/shop/t/4159/assets/theme.css",
+        "detail": ":root,:host · --color-green: #10714e",
+        "method": "stylesheet"
+      }
+    },
+    {
+      "hex": "#007AFF",
+      "role": "Text",
+      "source": {
+        "url": "https://www.allbirds.com/cdn/shop/t/4159/assets/theme.css",
+        "detail": ":root · --swiper-theme-color: #007aff",
+        "method": "stylesheet"
+      }
+    }
+  ],
+  "typography": [
+    {
+      "family": "Geograph",
+      "role": "Body / interface",
+      "kind": "css-variable",
+      "source": {
+        "url": "https://www.allbirds.com/cdn/shop/t/4159/assets/theme.css",
+        "detail": ":root,:host · --font-sans: \"Geograph\",system-ui,sans-serif",
+        "method": "stylesheet"
+      }
+    },
+    {
+      "family": "Self Modern",
+      "role": "Serif stack",
+      "kind": "css-variable",
+      "source": {
+        "url": "https://www.allbirds.com/cdn/shop/t/4159/assets/theme.css",
+        "detail": ":root,:host · --font-serif: \"Self Modern\",ui-serif,serif",
+        "method": "stylesheet"
+      }
+    },
+    {
+      "family": "Akkurat Mono",
+      "role": "Monospace / code",
+      "kind": "css-variable",
+      "source": {
+        "url": "https://www.allbirds.com/cdn/shop/t/4159/assets/theme.css",
+        "detail": ":root,:host · --font-mono: \"Akkurat Mono\",ui-monospace,monospace",
+        "method": "stylesheet"
+      }
+    }
+  ],
+  "voice": {
+    "attributes": [
+      {
+        "name": "Concise",
+        "evidence": "Striving for better is in our nature"
+      },
+      {
+        "name": "Action-led",
+        "evidence": "We set out to create an entirely new category of shoes inspired by natural materials, guided by an ethos to create better things in a better way. We’ve made a lot of progress, but we’re just getting started."
+      }
+    ],
+    "do": [
+      "Keep the short, declarative sentence rhythm found in the quoted copy.",
+      "Lead with concrete action verbs already present in the site copy."
+    ],
+    "dont": [
+      "Don’t expand a compact source line into a lengthy explanation.",
+      "Don’t introduce claims or promises absent from the source pages."
+    ],
+    "quotes": [
+      {
+        "text": "Striving for better is in our nature",
+        "source": {
+          "url": "https://www.allbirds.com/pages/our-story",
+          "detail": "Verbatim heading",
+          "method": "markdown"
+        }
+      },
+      {
+        "text": "Jamie McLellan, Designer of the Original Wool Runner",
+        "source": {
+          "url": "https://www.allbirds.com/pages/our-story",
+          "detail": "Verbatim heading",
+          "method": "markdown"
+        }
+      },
+      {
+        "text": "We set out to create an entirely new category of shoes inspired by natural materials, guided by an ethos to create better things in a better way. We’ve made a lot of progress, but we’re just getting started.",
+        "source": {
+          "url": "https://www.allbirds.com/pages/our-story",
+          "detail": "Verbatim site copy",
+          "method": "markdown"
+        }
+      }
+    ]
+  },
+  "messaging": {
+    "headline": "Wildly Comfortable. Super Natural.",
+    "description": "Allbirds: The world’s most comfortable shoes, flats, and clothing made with natural materials like merino wool and eucalyptus. FREE shipping & returns.",
+    "pillars": [
+      {
+        "text": "New Arrivals",
+        "source": {
+          "url": "https://www.allbirds.com/",
+          "detail": "Quoted page heading",
+          "method": "html"
+        }
+      },
+      {
+        "text": "Best Sellers",
+        "source": {
+          "url": "https://www.allbirds.com/",
+          "detail": "Quoted page heading",
+          "method": "html"
+        }
+      },
+      {
+        "text": "Summer Travel Essentials",
+        "source": {
+          "url": "https://www.allbirds.com/",
+          "detail": "Quoted page heading",
+          "method": "html"
+        }
+      },
+      {
+        "text": "Fresh Colors For Summer",
+        "source": {
+          "url": "https://www.allbirds.com/",
+          "detail": "Quoted page heading",
+          "method": "html"
+        }
+      },
+      {
+        "text": "Refund policy",
+        "source": {
+          "url": "https://www.allbirds.com/",
+          "detail": "Quoted page heading",
+          "method": "html"
+        }
+      }
+    ],
+    "callsToAction": [
+      {
+        "text": "Skip to Content",
+        "source": {
+          "url": "https://www.allbirds.com/",
+          "detail": "Quoted link or button label",
+          "method": "html"
+        }
+      },
+      {
+        "text": "Men",
+        "source": {
+          "url": "https://www.allbirds.com/",
+          "detail": "Quoted link or button label",
+          "method": "html"
+        }
+      },
+      {
+        "text": "Women",
+        "source": {
+          "url": "https://www.allbirds.com/",
+          "detail": "Quoted link or button label",
+          "method": "html"
+        }
+      },
+      {
+        "text": "Men's",
+        "source": {
+          "url": "https://www.allbirds.com/",
+          "detail": "Quoted link or button label",
+          "method": "html"
+        }
+      },
+      {
+        "text": "Women's",
+        "source": {
+          "url": "https://www.allbirds.com/",
+          "detail": "Quoted link or button label",
+          "method": "html"
+        }
+      },
+      {
+        "text": "Featured",
+        "source": {
+          "url": "https://www.allbirds.com/",
+          "detail": "Quoted link or button label",
+          "method": "html"
+        }
+      }
+    ],
+    "headlineSource": {
+      "url": "https://www.allbirds.com/",
+      "detail": "Quoted homepage headline",
+      "method": "html"
+    },
+    "descriptionSource": {
+      "url": "https://www.allbirds.com/",
+      "detail": "Homepage meta description or introductory copy",
+      "method": "html"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.allbirds.com/cdn/shop/t/4159/assets/theme.css",
+      "title": "Linked stylesheet",
+      "kind": "stylesheet"
+    },
+    {
+      "url": "https://www.allbirds.com/cdn/shopifycloud/portable-wallets/latest/accelerated-checkout-backwards-compat.css",
+      "title": "Linked stylesheet",
+      "kind": "stylesheet"
+    },
+    {
+      "url": "https://www.allbirds.com/cdn/shop/t/4159/assets/cart-drawer-section.css",
+      "title": "Linked stylesheet",
+      "kind": "stylesheet"
+    },
+    {
+      "url": "https://www.allbirds.com/",
+      "title": "The World’s Most Comfortable Shoes",
+      "kind": "homepage"
+    },
+    {
+      "url": "https://www.allbirds.com/pages/our-story",
+      "title": "Our Story",
+      "kind": "brand"
+    }
+  ],
+  "tinyfish": {
+    "endpoints": [
+      "search",
+      "agent",
+      "fetch"
+    ],
+    "calls": [
+      {
+        "endpoint": "search",
+        "url": "https://api.search.tinyfish.ai/?query=Allbirds+official+website&purpose=Resolve+the+company%27s+official+homepage%2C+excluding+news+and+social+profiles",
+        "format": "json",
+        "purpose": "Resolve the company's official homepage, excluding news and social profiles",
+        "status": "completed"
+      },
+      {
+        "endpoint": "agent",
+        "url": "https://www.allbirds.com/",
+        "format": "json",
+        "purpose": "Observe rendered logo, colours, type and exact homepage copy",
+        "status": "failed",
+        "error": "This TinyFish key does not have access to the requested endpoint."
+      },
+      {
+        "endpoint": "search",
+        "url": "https://api.search.tinyfish.ai/?query=site%3Aallbirds.com+%28about+OR+story+OR+brand+OR+press%29&purpose=Discover+official+about%2C+story%2C+press+and+brand+pages",
+        "format": "json",
+        "purpose": "Discover official about, story, press and brand pages",
+        "status": "completed"
+      },
+      {
+        "endpoint": "fetch",
+        "url": "https://www.allbirds.com/",
+        "format": "html",
+        "purpose": "Inspect homepage HTML for logo, font and stylesheet links",
+        "status": "completed"
+      },
+      {
+        "endpoint": "fetch",
+        "url": "https://www.allbirds.com/",
+        "format": "html",
+        "purpose": "Extract page structure, marks, typography and CTAs",
+        "status": "completed"
+      },
+      {
+        "endpoint": "fetch",
+        "url": "https://www.allbirds.com/pages/our-story",
+        "format": "html",
+        "purpose": "Extract page structure, marks, typography and CTAs",
+        "status": "completed"
+      },
+      {
+        "endpoint": "fetch",
+        "url": "https://www.allbirds.com/",
+        "format": "markdown",
+        "purpose": "Collect verbatim headings and sentences for voice and messaging",
+        "status": "completed"
+      },
+      {
+        "endpoint": "fetch",
+        "url": "https://www.allbirds.com/pages/our-story",
+        "format": "markdown",
+        "purpose": "Collect verbatim headings and sentences for voice and messaging",
+        "status": "completed"
+      },
+      {
+        "endpoint": "fetch",
+        "url": "https://www.allbirds.com/cdn/shop/t/4159/assets/theme.css",
+        "format": "html",
+        "purpose": "Read linked stylesheets for colour and font tokens",
+        "status": "completed"
+      },
+      {
+        "endpoint": "fetch",
+        "url": "https://www.allbirds.com/cdn/shopifycloud/portable-wallets/latest/accelerated-checkout-backwards-compat.css",
+        "format": "html",
+        "purpose": "Read linked stylesheets for colour and font tokens",
+        "status": "completed"
+      },
+      {
+        "endpoint": "fetch",
+        "url": "https://www.allbirds.com/cdn/shop/t/4159/assets/cart-drawer-section.css",
+        "format": "html",
+        "purpose": "Read linked stylesheets for colour and font tokens",
+        "status": "completed"
+      }
+    ]
+  }
+}

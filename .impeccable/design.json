@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-08T00:00:00.000Z",
+  "title": "Design System: Crestline",
+  "extensions": {
+    "shadows": [
+      {
+        "name": "specimen-ambient",
+        "value": "0 12px 30px #1e3b6e13",
+        "purpose": "Diffuse lift for the small code-drawn identity specimen in the first viewport."
+      },
+      {
+        "name": "surface-ambient",
+        "value": "0 8px 24px #1e3b6e08",
+        "purpose": "Quiet separation for the generator and finished report sheets from the pale-blue work surface."
+      }
+    ],
+    "motion": [
+      {
+        "name": "state-transition",
+        "value": "background .15s, opacity .15s, transform .15s",
+        "purpose": "Short feedback for buttons, chips, swatch copy affordances, and native disclosure chevrons."
+      },
+      {
+        "name": "progress-spin",
+        "value": "spin 1.2s linear infinite",
+        "purpose": "Running-state cue for generation and sample loading."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "@media (prefers-reduced-motion: reduce) { scroll-behavior: auto; animation: none; transition: none; }",
+        "purpose": "Removes motion and changes report scrolling to immediate movement for motion-sensitive users."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide",
+        "value": "1500px",
+        "purpose": "Adds vertical air to the landing intro without changing its order."
+      },
+      {
+        "name": "compact",
+        "value": "900px",
+        "purpose": "Contracts the report rail and evidence grids for medium screens."
+      },
+      {
+        "name": "portrait",
+        "value": "680px",
+        "purpose": "Stacks the query controls, hides the specimen, and changes report navigation to horizontal scrolling."
+      }
+    ],
+    "metadata": {
+      "groundTruth": "Final built UI source; later rules in app/globals.css are authoritative when the cascade overrides an earlier rule.",
+      "sourceFiles": [
+        "app/globals.css",
+        "app/components/workspace.tsx",
+        "app/components/guide-view.tsx",
+        "PRODUCT.md",
+        ".impeccable/surfaces/home.md"
+      ],
+      "finishReview": {
+        "materialFixes": 6,
+        "resolved": 6,
+        "disposition": "ship",
+        "scope": "The six fixes scored in the final independent finish review."
+      },
+      "citationCascade": {
+        "callHistorySummary": "12px",
+        "callMetadata": "12px",
+        "callPurposes": "12px",
+        "callLinks": "11px",
+        "status": "applied"
+      },
+      "assetPolicy": {
+        "shippingRasterFiles": false,
+        "remoteLogos": "Evidence previews only; open the original source below the preview.",
+        "decorativeSpecimen": "Code-drawn geometry, not a shipping raster asset."
+      },
+      "northStar": "The Precise Identity Handoff"
+    }
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The single cobalt action for starting a guide or the next primary handoff step.",
+      "html": "<button class='ds-btn-primary' type='button'>Generate guide <svg viewBox='0 0 24 24' aria-hidden='true'><path d='M5 12h14'></path><path d='m12 5 7 7-7 7'></path></svg></button>",
+      "css": ".ds-btn-primary { display: inline-flex; align-items: center; justify-content: center; gap: 9px; min-height: 48px; padding: 12px 21px; border: 0; border-radius: 6px; background: var(--cobalt); color: var(--paper); font: 750 13px/1.6 Manrope Variable, sans-serif; cursor: pointer; transition: background .15s; } .ds-btn-primary svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; } .ds-btn-primary:hover { background: var(--cobalt-dark); } .ds-btn-primary:focus-visible { outline: 3px solid var(--cobalt); outline-offset: 4px; } .ds-btn-primary:disabled { cursor: wait; opacity: .6; }"
+    },
+    {
+      "name": "Light Button",
+      "kind": "button",
+      "refersTo": "button-light",
+      "description": "A pale-blue secondary action used for quiet exports and supporting controls.",
+      "html": "<button class='ds-btn-light' type='button'><svg viewBox='0 0 24 24' aria-hidden='true'><path d='M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z'></path><path d='M14 2v4a2 2 0 0 0 2 2h4'></path><path d='M10 12a1 1 0 0 0-1 1v1a1 1 0 0 1-1 1 1 1 0 0 1 1 1v1a1 1 0 0 0 1 1'></path><path d='M14 18a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1 1 1 0 0 1-1-1v-1a1 1 0 0 0-1-1'></path></svg>Download JSON</button>",
+      "css": ".ds-btn-light { display: inline-flex; align-items: center; justify-content: center; gap: 7px; padding: 9px 12px; border: 0; border-radius: 6px; background: var(--ground); color: var(--ink); font: 750 10px/1.6 Manrope Variable, sans-serif; cursor: pointer; transition: background .15s; } .ds-btn-light svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; } .ds-btn-light:hover { background: var(--blue-tint); } .ds-btn-light:focus-visible { outline: 3px solid var(--cobalt); outline-offset: 4px; } .ds-btn-light:disabled { cursor: wait; opacity: .6; }"
+    },
+    {
+      "name": "Ink Button",
+      "kind": "button",
+      "refersTo": "button-ink",
+      "description": "The dark document action reserved for the finished PDF handoff.",
+      "html": "<button class='ds-btn-ink' type='button'><svg viewBox='0 0 24 24' aria-hidden='true'><path d='M12 17V3'></path><path d='m6 11 6 6 6-6'></path><path d='M19 21H5'></path></svg>Download PDF</button>",
+      "css": ".ds-btn-ink { display: inline-flex; align-items: center; justify-content: center; gap: 7px; padding: 9px 12px; border: 0; border-radius: 6px; background: var(--ink); color: var(--paper); font: 750 10px/1.6 Manrope Variable, sans-serif; cursor: pointer; transition: background .15s; } .ds-btn-ink svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; } .ds-btn-ink:hover { background: var(--cobalt-dark); } .ds-btn-ink:focus-visible { outline: 3px solid var(--cobalt); outline-offset: 4px; } .ds-btn-ink:disabled { cursor: wait; opacity: .6; }"
+    },
+    {
+      "name": "Query Input",
+      "kind": "input",
+      "refersTo": "query-input",
+      "description": "The primary website-or-company field with a native input and its cobalt generate action.",
+      "html": "<div class='ds-query'><svg class='ds-query-icon' viewBox='0 0 24 24' aria-hidden='true'><path d='M21.54 15H17a2 2 0 0 0-2 2v4.54'></path><path d='M7 3.34V5a3 3 0 0 0 3 3a2 2 0 0 1 2 2c0 1.1.9 2 2 2a2 2 0 0 0 2-2c0-1.1.9-2 2-2h3.17'></path><path d='M11 21.95V18a2 2 0 0 0-2-2a2 2 0 0 1-2-2v-1a2 2 0 0 1-2-2H2.05'></path><circle cx='12' cy='12' r='10'></circle></svg><input aria-label='Company name or website' placeholder='e.g. linear.app or Allbirds'><button type='button'>Generate guide <svg viewBox='0 0 24 24' aria-hidden='true'><path d='M5 12h14'></path><path d='m12 5 7 7-7 7'></path></svg></button></div>",
+      "css": ".ds-query { display: flex; align-items: center; gap: 12px; padding: 6px; border: 1px solid #a9b9d7; border-radius: 8px; background: var(--paper); } .ds-query:focus-within { border-color: var(--cobalt); outline: 2px solid #2856d921; } .ds-query-icon { flex: 0 0 auto; width: 22px; height: 22px; margin-left: 12px; fill: none; stroke: #5f77a1; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; } .ds-query input { flex: 1; width: 100%; min-width: 0; padding: 10px 0; border: 0; outline: 0; background: transparent; color: var(--ink); font: 400 16px/1.6 Manrope Variable, sans-serif; caret-color: var(--cobalt); } .ds-query input::placeholder { color: #677590; opacity: 1; } .ds-query button { display: inline-flex; align-items: center; justify-content: center; gap: 9px; min-height: 48px; padding: 12px 21px; border: 0; border-radius: 6px; background: var(--cobalt); color: var(--paper); font: 750 13px/1.6 Manrope Variable, sans-serif; cursor: pointer; transition: background .15s; white-space: nowrap; } .ds-query button svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; } .ds-query button:hover { background: var(--cobalt-dark); } .ds-query input:focus-visible, .ds-query button:focus-visible { outline: 3px solid var(--cobalt); outline-offset: 4px; } @media (max-width: 680px) { .ds-query { position: relative; flex-wrap: wrap; border: 0; border-radius: 0; padding: 0; gap: 0; } .ds-query-icon { position: absolute; margin: 15px 0 0 12px; width: 18px; height: 18px; } .ds-query input { flex: auto; width: 100%; min-height: 48px; padding: 12px 12px 12px 40px; border: 1px solid #a9b9d7; border-radius: 6px; font-size: 14px; } .ds-query button { width: 100%; margin-top: 9px; } }"
+    },
+    {
+      "name": "Session Disclosure",
+      "kind": "custom",
+      "refersTo": "session-disclosure",
+      "description": "A native details control for the optional session key and its storage explanation.",
+      "html": "<details class='ds-disclosure'><summary><svg viewBox='0 0 24 24' aria-hidden='true'><path d='M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z'></path><circle cx='16.5' cy='7.5' r='.5' fill='currentColor'></circle></svg><strong>Session key</strong><span>Optional</span><svg class='ds-chevron' viewBox='0 0 24 24' aria-hidden='true'><path d='m6 9 6 6 6-6'></path></svg></summary><div class='ds-disclosure-content'><label for='ds-api-key'>TinyFish API key</label><input id='ds-api-key' type='password' placeholder='Paste your TinyFish key'><p>Kept in this tab’s session and sent only with your generate request.</p></div></details>",
+      "css": ".ds-disclosure { margin-top: 20px; border-top: 1px solid var(--line); padding-top: 13px; color: var(--ink); font-family: Manrope Variable, sans-serif; } .ds-disclosure summary { display: flex; align-items: center; gap: 7px; width: fit-content; color: var(--muted); font-size: 11px; line-height: 1.6; cursor: pointer; list-style: none; } .ds-disclosure summary::-webkit-details-marker { display: none; } .ds-disclosure summary strong { color: var(--ink); font-weight: 650; } .ds-disclosure summary span { margin-left: 5px; } .ds-disclosure summary > svg:first-child { width: 14px; height: 14px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; } .ds-disclosure .ds-chevron { width: 14px; height: 14px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; transition: transform .15s; } .ds-disclosure[open] .ds-chevron { transform: rotate(180deg); } .ds-disclosure summary:focus-visible { outline: 3px solid var(--cobalt); outline-offset: 4px; } .ds-disclosure-content { max-width: 650px; padding: 17px 0 5px; } .ds-disclosure-content label { display: block; margin-bottom: 9px; color: var(--ink); font-size: 11px; font-weight: 700; } .ds-disclosure-content input { width: 100%; padding: 8px 12px; border: 1px solid var(--line); border-radius: 5px; color: var(--ink); font: 400 12px/1.6 Manrope Variable, sans-serif; } .ds-disclosure-content input:focus-visible { outline: 3px solid var(--cobalt); outline-offset: 4px; } .ds-disclosure-content p { margin-top: 8px; color: var(--muted); font-size: 11px; line-height: 1.6; }"
+    },
+    {
+      "name": "Report Navigation",
+      "kind": "nav",
+      "refersTo": "report-nav",
+      "description": "The document rail that becomes a horizontally scrollable native navigation on portrait screens.",
+      "html": "<nav class='ds-report-nav' aria-label='Guide sections'><a href='#mark-colour'><svg viewBox='0 0 24 24' aria-hidden='true'><circle cx='13.5' cy='6.5' r='.5'></circle><circle cx='17.5' cy='10.5' r='.5'></circle><circle cx='8.5' cy='7.5' r='.5'></circle><circle cx='6.5' cy='12.5' r='.5'></circle><path d='M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z'></path></svg>Mark &amp; colour</a><a href='#typography'><svg viewBox='0 0 24 24' aria-hidden='true'><polyline points='4 7 4 4 20 4 20 7'></polyline><line x1='9' x2='15' y1='20' y2='20'></line><line x1='12' x2='12' y1='4' y2='20'></line></svg>Typography</a><a href='#voice'><svg viewBox='0 0 24 24' aria-hidden='true'><path d='M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 1-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z'></path><path d='M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 1-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z'></path></svg>Tone of voice</a><a href='#messaging'><svg viewBox='0 0 24 24' aria-hidden='true'><path d='M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z'></path></svg>Messaging</a><a href='#sources'><svg viewBox='0 0 24 24' aria-hidden='true'><path d='M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71'></path><path d='M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71'></path></svg>Sources &amp; calls</a></nav>",
+      "css": ".ds-report-nav { display: flex; flex-direction: column; gap: 6px; } .ds-report-nav a { display: flex; align-items: center; gap: 8px; padding: 6px 0; color: var(--muted); font: 400 12px/1.6 Manrope Variable, sans-serif; text-decoration: none; white-space: nowrap; } .ds-report-nav a:hover { color: var(--cobalt); } .ds-report-nav a:focus-visible { outline: 3px solid var(--cobalt); outline-offset: 4px; } .ds-report-nav svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; } @media (max-width: 680px) { .ds-report-nav { flex-direction: row; gap: 15px; overflow-x: auto; padding-bottom: 3px; } .ds-report-nav a { font-size: 12px; } .ds-report-nav a svg { display: none; } }"
+    },
+    {
+      "name": "Live Example Chip",
+      "kind": "chip",
+      "refersTo": "sample-chip",
+      "description": "A compact live-run shortcut that keeps sample brands explicit and easy to scan.",
+      "html": "<button class='ds-chip' type='button'>Linear <svg viewBox='0 0 24 24' aria-hidden='true'><path d='M7 7h10v10'></path><path d='M7 17 17 7'></path></svg></button>",
+      "css": ".ds-chip { display: inline-flex; align-items: center; gap: 4px; padding: 4px 8px; border: 1px solid var(--line); border-radius: 4px; background: var(--paper); color: var(--ink); font: 650 10px/1.6 Manrope Variable, sans-serif; cursor: pointer; transition: border-color .15s, background .15s; } .ds-chip svg { width: 12px; height: 12px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; } .ds-chip:hover { border-color: var(--cobalt); background: var(--blue-tint); } .ds-chip:focus-visible { outline: 3px solid var(--cobalt); outline-offset: 4px; } .ds-chip:disabled { cursor: wait; opacity: .6; }"
+    },
+    {
+      "name": "Palette Swatch",
+      "kind": "custom",
+      "refersTo": "palette-swatch",
+      "description": "A real extracted-colour button that reveals the copy affordance and drives the report ribbon.",
+      "html": "<button class='ds-swatch' type='button' aria-label='Copy #2856D9' style='--swatch: #2856D9'><span class='ds-swatch-copy'><svg viewBox='0 0 24 24' aria-hidden='true'><rect width='14' height='14' x='8' y='8' rx='2'></rect><path d='M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2-2-2h10c1.1 0 2 .9 2 2'></path></svg></span></button>",
+      "css": ".ds-swatch { display: flex; align-items: flex-end; justify-content: flex-end; width: 100%; height: 75px; padding: 7px; border: 1px solid #172d551a; border-radius: 6px; background: var(--swatch); cursor: pointer; } .ds-swatch-copy { display: flex; padding: 4px; border-radius: 3px; background: var(--paper); color: var(--ink); opacity: 0; transition: opacity .15s; } .ds-swatch-copy svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; } .ds-swatch:hover .ds-swatch-copy, .ds-swatch:focus-visible .ds-swatch-copy { opacity: 1; } .ds-swatch:focus-visible { outline: 3px solid var(--cobalt); outline-offset: 4px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Precise Identity Handoff",
+    "overview": "Crestline is a production jacket for turning a public website into a usable brand handoff. Cobalt leads the shell, a pale-blue work surface keeps the page open, and white report sheets give the sourced guide a physical place to land. The voice is clear, practical, and visibly accountable to evidence: every logo, colour, typeface, quote, and call can be followed back to a source.\n\nThe interface moves in the same order as the work: enter a company or website, watch Resolve → Search → Fetch → Agent → Compose, inspect a readable guide, then download JSON or PDF. Manrope Variable gives the whole system sturdy rounded details without making the report feel soft. The small identity specimen is code-drawn geometry, while external logos stay what they are in the product: remote evidence previews.",
+    "keyCharacteristics": [
+      "Cobalt production-jacket shell over a pale-blue work surface.",
+      "White, lightly lifted report sheets with ink-blue document hierarchy.",
+      "Source-first labels, methods, URLs, endpoint states, and native disclosures.",
+      "Compact desktop density that becomes a stacked portrait workbench without losing the handoff order."
+    ],
+    "rules": [
+      {
+        "name": "The Evidence Chain Rule",
+        "body": "Treat the interface as a traceable handoff: visual and verbal claims retain their source link and method, and recorded reports remain visibly distinct from live runs.",
+        "section": "overview"
+      },
+      {
+        "name": "The Cobalt Accent Rule",
+        "body": "Keep cobalt concentrated on the shell, primary action, active state, and meaningful links. Extracted brand colours belong to the report content and must not be guessed or recoloured into the product palette.",
+        "section": "colors"
+      },
+      {
+        "name": "The Document Hierarchy Rule",
+        "body": "Headings carry the report; metadata recedes but remains readable. Do not make source evidence smaller than the final 12px evidence scale merely to fit more content.",
+        "section": "typography"
+      },
+      {
+        "name": "The Handoff Order Rule",
+        "body": "Preserve the sequence query → live examples → optional session key → recorded reports → generated report. On portrait screens, stack the query controls and let report navigation scroll rather than shrinking labels into illegibility.",
+        "section": "layout"
+      },
+      {
+        "name": "The Paper Sheet Rule",
+        "body": "Use elevation to identify a working surface or finished report, not to decorate every control. Chips, dividers, swatches, and native disclosures stay mostly flat.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do use the frontmatter cobalt, ink, pale-blue, paper, and hairline roles before introducing another product colour.",
+      "Do keep every extracted visual or verbal claim attached to its source URL and method.",
+      "Do preserve the recorded/live distinction, endpoint history, and Fetch evidence when Agent observation is unavailable.",
+      "Do use native buttons, links, details, and summary controls with the visible focus treatment and reduced-motion behavior.",
+      "Do keep the report hierarchy readable at the final 12px evidence scale, including call-history metadata and purposes.",
+      "Do draw the identity specimen from geometry and use remote logos only as evidence previews."
+    ],
+    "donts": [
+      "Don't invent a colour, font, logo, or tagline when the captured evidence does not provide one.",
+      "Don't ship remote logo previews as raster brand assets, or replace the code-drawn specimen with a shipping raster file.",
+      "Don't turn the pale-blue work surface into a warm editorial paper, gradient field, or decorative pattern.",
+      "Don't add borrowed ornament, side stripes, oversized shadows, or extra display faces to the production-jacket shell.",
+      "Don't collapse the portrait report nav into clipped labels or remove the stacked portrait query behavior.",
+      "Don't treat a recorded sample as a live run, or treat an Agent failure as a reason to discard usable Fetch evidence."
+    ]
+  }
+}
